@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecandActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="رقم الهاتف"
+        android:layout_marginTop="100sp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="عنوان الشكوى"
+        android:layout_marginTop="170sp"
+
+        />
+
+    <EditText
+        android:id="@+id/editThecomp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="240sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="نص الشكوى"
+
+        />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إضافة شكوى"
+
+        android:layout_marginTop="400sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحة الشكاوي"
+
+
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>
